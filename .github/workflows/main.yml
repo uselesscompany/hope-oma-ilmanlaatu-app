@@ -1,0 +1,19 @@
+name: On-Push Tests
+
+on: [push]
+
+env:
+  CI: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: NPM install frontend
+        run: npm install
+        working-directory: ./
+      - name: Run linter frontend
+        run: npm run test-all
+        working-directory: ./
