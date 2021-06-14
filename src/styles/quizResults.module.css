@@ -1,0 +1,32 @@
+.actionTitle {
+  color: #58b998;
+}
+
+a.actionLink {
+  color: #58b998;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.actionHeaderContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+}
+
+.actionHeaderContainer div {
+  min-width: 2.5vw;
+  min-height: 2.5vh;
+  padding: 0 1vw;
+}
+
+.hr {
+  width: 80vw;
+  border-top: 2px solid #58b998;
+}
+
+.feedbackText {
+  width: 70vw;
+}

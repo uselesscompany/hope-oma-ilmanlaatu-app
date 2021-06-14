@@ -1,0 +1,21 @@
+.descriptionDiv {
+  padding: 1vh 10vw;
+}
+
+.actionPage {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden {
+  width: 0;
+  max-width: 0;
+  opacity: 0;
+  visibility: hidden;
+}

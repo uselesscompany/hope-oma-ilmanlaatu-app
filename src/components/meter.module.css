@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  max-height: 8vh;
+  max-width: 10vw;
+}
+
+.container svg {
+  background-color: #ffffff;
+}

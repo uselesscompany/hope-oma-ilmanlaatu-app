@@ -1,0 +1,18 @@
+.header {
+  color: #58b998;
+  font-size: 4vh;
+  max-width: 70vw;
+  font-weight: bold;
+  line-height: 1.125;
+  background-color: 'initial';
+  border-radius: 'initial';
+  margin-top: 'initial';
+  padding: 'initial';
+}
+
+.inline {
+  background-color: #ffffff;
+  border-radius: 10vmin;
+  margin-top: -4vh;
+  padding: 1vh 3vw;
+}

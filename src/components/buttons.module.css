@@ -1,0 +1,43 @@
+.buttonsDiv {
+  display: flex;
+  flex-flow: row nowrap;
+  cursor: default;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1vmin 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.styledLink {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+.styledLink p {
+  cursor: pointer;
+  color: #58b998;
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+.roundImgButton {
+  background-color: #58b998;
+  border-radius: 100%;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 1vh 2vw;
+  padding: 2vh;
+  width: 12vh;
+  height: 12vh;
+}
+
+.roundImgButton:hover {
+  filter: brightness(95%);
+}
+
+.roundImgButton:active {
+  filter: brightness(90%);
+}

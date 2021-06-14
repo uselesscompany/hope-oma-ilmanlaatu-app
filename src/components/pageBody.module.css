@@ -1,0 +1,14 @@
+.pageBody {
+  font-weight: bold;
+  margin: auto;
+  max-width: 80vw;
+  margin: 4vh auto;
+  line-height: 1.5;
+}
+
+.lightPageBody {
+  margin: auto;
+  max-width: 80vw;
+  margin: 4vh auto;
+  line-height: 1.5;
+}

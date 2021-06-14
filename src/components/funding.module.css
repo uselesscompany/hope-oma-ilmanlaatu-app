@@ -1,0 +1,6 @@
+.large {
+  object-fit: contain;
+  max-width: 40vw;
+  max-height: 15vh;
+  margin: 2vh 2vw;
+}

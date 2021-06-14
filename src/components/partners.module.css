@@ -1,0 +1,11 @@
+.text {
+  font-size: 0.5em;
+  max-width: 50vw;
+}
+
+.image {
+  object-fit: contain;
+  max-width: 10vw;
+  max-height: 5vh;
+  margin-bottom: 2vh;
+}

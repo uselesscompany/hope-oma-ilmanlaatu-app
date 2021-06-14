@@ -1,0 +1,43 @@
+.app {
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  text-align: center;
+  border-top: 1vh solid #58b998;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.app a {
+  text-decoration: none;
+}
+
+.app a:focus,
+.app button:focus {
+  outline: none;
+  filter: brightness(85%);
+}
+
+.app em {
+  color: #58b998;
+}
+
+.app select:invalid {
+  background-color: #f08080;
+}
+
+.languageContainer {
+  position: absolute;
+  right: 0;
+  background-color: #58b998;
+  padding: 1vh 1vw;
+  border-radius: 0 0 0 1vmin;
+  z-index: 9999;
+}
+
+.languageContainer button {
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 2vmin;
+  padding: 1vmin;
+  font-weight: bold;
+}

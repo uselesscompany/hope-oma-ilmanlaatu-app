@@ -1,0 +1,33 @@
+.iconButtonsRow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 90vh;
+  margin: 5vh auto;
+  width: 90vw;
+}
+
+.emptyDiv {
+  display: flex;
+  flex: 2;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.iconButtonsContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  opacity: 1;
+  visibility: visible;
+  width: 50vw;
+}
+
+.hidden {
+  width: 0;
+  max-width: 0;
+  opacity: 0;
+  visibility: hidden;
+}

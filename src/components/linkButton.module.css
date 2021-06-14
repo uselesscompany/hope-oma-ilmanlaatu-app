@@ -1,0 +1,55 @@
+.linkButton {
+  background-color: #58b998;
+  border-radius: 1.2em;
+  border: 1px solid white;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 1vh;
+  padding: 4vmin 3vmin;
+  font-size: 1.5em;
+  min-width: 50vw;
+}
+
+@media screen and (max-width: 600px) {
+  .linkButton {
+    min-width: 75vw;
+  }
+
+  .small {
+    min-width: 25vw;
+  }
+}
+
+.negative {
+  background-color: #eaeaea;
+  border: 1px solid #afafaf;
+  color: #000000;
+  padding: 1vmin 1vmin;
+  font-size: 0.75em;
+}
+
+.small {
+  padding: 1vmin 1vmin;
+  font-size: 0.75em;
+  min-width: 15vw;
+}
+
+.linkButton:hover {
+  filter: brightness(95%);
+}
+
+.linkButton:active {
+  filter: brightness(90%);
+}
+
+.linkButton.iconButton {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkButton img {
+  height: 10vh;
+}

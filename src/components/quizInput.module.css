@@ -1,0 +1,13 @@
+.quizInput {
+  margin: 0 0 1vw;
+  width: 20vw;
+}
+
+.quizInput:invalid {
+  background-color: #f08080;
+}
+
+.small {
+  margin: 0 1vw 1vw;
+  width: 8vw;
+}
